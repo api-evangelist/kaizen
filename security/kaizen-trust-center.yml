@@ -1,0 +1,17 @@
+generated: '2026-07-19'
+method: searched
+probe: false
+source: https://www.kaizenlabs.co/security-compliance/
+url: https://www.kaizenlabs.co/security-compliance/
+certifications:
+- SOC 2 Type II
+- HIPAA
+posture:
+- Independent audits and continuous monitoring
+- Data encrypted in transit and at rest
+- Role-based access controls with full audit trails
+- Continuous threat monitoring and regular penetration testing
+- Rapid response to emerging vulnerabilities
+evidence:
+- source: https://www.kaizenlabs.co/security-compliance/
+  keywords: [soc 2 type ii, hipaa, encryption, penetration testing, audit trails]

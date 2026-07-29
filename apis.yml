@@ -1,8 +1,26 @@
 aid: kaizen
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kaizen.png
 name: Kaizen
-description: 'Kaizen is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: cloud-saas. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Kaizen Labs is a New York City civic-technology company building a modular platform
+  that helps local, state, and federal government agencies serve constituents simply, securely, and
+  at scale. Founded in 2022 by Nikhil Reddy and Kj Shah, the platform spans permitting and licensing,
+  recreation reservations and registrations, parking management, tolls and transit fare collection,
+  e-billing and tax payments, DMV and judicial-court services, and AI-assisted case management —
+  reaching roughly 40 million residents across 50+ agencies in 17 states. Kaizen has raised about
+  $35M from NEA, Andreessen Horowitz, Accel, 776, and Carpenter Capital. The company publishes no
+  public developer API surface; this profile is enriched from its public website, llms.txt, and
+  security & compliance disclosures.'
 url: https://raw.githubusercontent.com/api-evangelist/kaizen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Cloud Saas
+- Government
+- GovTech
+- Civic Technology
+- Public Sector
+- Permitting
+- Payments
+- Recreation
+- Parking
+- Transit
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/kaizen-domain-security.yml
+- type: TrustCenter
+  url: security/kaizen-trust-center.yml
+- type: Compliance
+  url: https://www.kaizenlabs.co/security-compliance/
+- type: Security
+  url: https://www.kaizenlabs.co/security-compliance/
+- type: LLMsTxt
+  url: llms/kaizen-llms.txt
+- type: PrivacyPolicy
+  url: https://www.kaizenlabs.co/privacy-policy/
+- type: Support
+  url: https://www.kaizenlabs.co/contact/
 - type: Website
   url: https://www.kaizenlabs.co/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
